@@ -1,0 +1,53 @@
+= React.js Beyond the Basics
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :bookmark:
+:important-caption: :boom:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+**The navigable website for this book is at https://jscomplete.com/react-beyond-basics[jscomplete.com/react-beyond-basics]**
+
+WARNING: This book is still a work in progress. New content is synced here as it gets ready.
+
+=== Contents:
+
+- **Part One: The fundamentals**
+["decimal", start=1]
+.. link:100-introduction.adoc[Introduction^]
+.. link:101-modern-js-and-nodejs.adoc[Modern JavaScript and Nodejs^]
+.. link:105-the-react-api.adoc[The React API^]
+.. Getting comfortable with components
+- **Part Two: The practice**
+["decimal", start=5]
+.. The ColorMatch game
+.. The MemoryChallenge game
+.. The StarMatch game
+.. Working with APIs data
+- **Part Three: The deep dive**
+["decimal", start=9]
+.. Global state management
+.. Routing and browser's history
+.. Optimizing React Hooks
+.. Server-side rendering
+.. React in production
+
+=== Getting Help
+
+We use Slack chat for support. You can use the form at https://jscomplete.com/help[jscomplete.com/help^] to get an email invite.
+
+=== Contributing
+
+You can click the "Edit this file" pencil icon while reading any of the lessons under this book, and then make any edits and push the green "Commit changes" button.
+
+All contributions are welcome, even if it was just to correct a tiny typo or code formatting issue, or even to add a comma. Please know that if you contribute to this book, you're contributing to our efforts to fight racial injustice everywhere, and we will be in deep gratitude to you.
+
+We do all the writing in AsciiDoc, which is just like Markdown but with standards and a lot more features. See https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[this syntax reference guide^] for a quick start.
+
+[IMPORTANT]
+--
+**This book is part of the jsComplete library which is FREE. We ask you to please donate what you can to https://jscomplete.com/fri[a cause that is fighting racial injustice^]**.
+
+Writing high quality content takes a lot of time. If you found this helpful please consider https://github.com/sponsors/samerbuna[supporting the author^] 🙏.
+--
