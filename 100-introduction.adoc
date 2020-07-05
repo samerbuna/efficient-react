@@ -28,7 +28,7 @@ A User Interface (UI) is anything we put in front of users to have them interact
 
 [TIP]
 --
-This book is exclusively about using React to build web user interfaces. See https://jscomplete.com/react-native[jscomplete.com/reac-native^] if you're interested to learn how to use React for building iOS and Android user interfaces.
+This book is exclusively about using React to build web user interfaces. See https://jscomplete.com/react-native[jscomplete.com/react-native^] if you're interested to learn how to use React for building iOS and Android user interfaces.
 --
 
 I like to use the word **describe** here because that is what **we** (the coders) basically do with React. We just tell it what we want and React will then build the actual UI, on our behalf, in the Web browser. Without React or similar libraries, we would need to manually build UIs with native Web APIs and JavaScript and that is not as easy.
@@ -37,7 +37,7 @@ When you hear the statement that "React is declarative" this is exactly what it 
 
 When React was released, there was a lot of buzz about its performance because it introduced the smart idea of a virtual DOM that can be used to reconcile the actual DOM (and we'll talk about that in the next section). While React's performance is still one of the most important reasons why it is extremely popular today, I don't classify it as the "best" thing about it. I think React was a game changer because it created a common language between developers and browsers. That language allows developers to declaratively describe UIs and manage actions on their state instead of actions on their DOM elements. It's simply the language of user interface "outcomes". Instead of coming up with steps to describe actions on user interfaces, developers just describe the interfaces in terms of a "final" state (like a function). When actions happen to that state, React takes care of updating the UIs in the DOM based that description (and it does that efficiently as we'll see next).
 
-If someone asked you to give **one reason** why React is worth learning, this outcomes-based UI language is it. I call this language "the React language". We'll start expoling that language in Chapter 3.
+If someone asked you to give **one reason** why React is worth learning, this outcomes-based UI language is it. I call this language "the React language". We'll start exploring that language in Chapter 3.
 
 [TIP]
 --
@@ -53,7 +53,7 @@ The React API is very small. I think a programmer who is comfortable with HTML a
 
 There is an important question about the order with which you need to learn things. This order would vary based on what skills you have. It goes without saying that you need a good understanding of JavaScript and HTML before taking your first steps with React.
 
-Let me try to be specific about the HTML/JavaScript knowledge that you need before learning React. If you do not know what the DOM is, if you do not understand the concept of children and parent nodes, if you do not know how to map or reduce an array, or if you do not understand the concept of closures and promises, you are probably not ready for React. No worries though. This book got you covered. Chapter 2 is a refresher on all the JavaScript you need before learning React (including ES2015-ES2020 modern JavaScript syntax).
+Let me try to be specific about the HTML/JavaScript knowledge that you need before learning React. If you do not know what the DOM is, if you do not understand the concept of children and parent nodes, if you do not know how to map or reduce an array, or if you do not understand the concepts of closures and promises, you are probably not ready for React. No worries, though. This book got you covered. Chapter 2 is a refresher on all the JavaScript you need before learning React (including ES2015-ES2020 modern JavaScript syntax).
 
 Also in Chapter 2 you will learn the basics of Node.js because it is the most popular platform for tools to make working with React easier. This is the chapter I design for you to skip if you're already comfortable with JavaScript and a bit of Nodejs.
 
